@@ -1,0 +1,50 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: #f4f4f4;
+}
+
+
+h1 {
+margin-top: 20px;
+}
+
+
+.scoreboard {
+display: flex;
+justify-content: center;
+gap: 30px;
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 120px);
+grid-gap: 20px;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+
+.hole {
+width: 120px;
+height: 120px;
+background-color: #7cfc00;
+border-radius: 50%;
+cursor: pointer;
+position: relative;
+}
+
+
+.hole.mole {
+background-color: brown;
+}
+
+
+button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
